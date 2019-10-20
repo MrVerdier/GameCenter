@@ -1,0 +1,36 @@
+.body-night {
+    overflow-x: hidden;
+    background: $night-background-color;
+    h1 {
+        color: $night-text-color;
+    }
+    h2 {
+        color: $night-text-color;
+    }
+    h3 {
+        color: $night-text-color;
+    }
+    i {
+        color: #fff!important;
+    }
+    p {
+        color: $night-text-color;
+    }
+}
+.menu-night {
+    background: $night-menu-color;
+    div {
+        color: $night-text-color;
+    }
+    .active {
+        border-bottom: 1px solid #fff;
+    }
+    .nav-item {
+        &:hover:after{
+            animation: navAnimationNight .4s ease-out forwards;
+        }
+    }
+}
+.text-color-night {
+    color: $night-text-color;
+}
